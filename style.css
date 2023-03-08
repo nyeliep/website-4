@@ -6,8 +6,8 @@
 
 
 *{
-  margin: auto;
-  padding: 0;
+  
+  padding:0 1px;
 
 }
 
@@ -80,6 +80,7 @@ nav ul li a{
   color: white;
   display: inline-block;
   align-items: center;
+  margin-left: 30%;
 }
 #selector{
   border-radius: 100px;
@@ -91,6 +92,7 @@ nav ul li a{
 h{
   font-size: 50px;
   text-align: center;
+  margin-left: 20%;
   
 }
 series{

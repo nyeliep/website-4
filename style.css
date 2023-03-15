@@ -169,7 +169,7 @@ h{
   justify-content: space-between;
 }
 .namePrice h3{
-  font-size: 12px;
+font-size: 10px;
 
 }
 .namePrice span{
@@ -293,7 +293,7 @@ h{
 
 }
 .container3{
-  margin-top: 15%;
+  margin-top: 10%;
   height: 90vh;
 }
 

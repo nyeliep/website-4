@@ -1,13 +1,18 @@
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
   body {
     background-color: #fff;
-  }
-}
+  } */
+/* } */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
 *{
   
-  padding:0 1px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  
+
 
 }
 
@@ -15,7 +20,7 @@
   background-color: #fff;
 }
 nav1{
-  width: 80%;
+
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
@@ -24,7 +29,6 @@ nav1{
 
 nav1 ul{
   list-style: none;
-  width: 100%;
   text-align: center;
 
 }
@@ -38,20 +42,16 @@ nav1 ul li a{
 }
 .title2{
   background-color: #ffd600;
-  width: 100%;
   height: 15vh;
 }
 nav2{
-  width: 100%;
-  justify-content: space-between;
   display: inline-block;
-  margin: 10px 15px;
-  padding: 10px 15px;
-
-  
+  margin: 5px 10px;
+  padding: 25px 60px;
+  display: flex;
 }
+
 nav{
-  width: 95%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,9 +60,8 @@ nav{
 
 nav ul{
   list-style: none;
-  width: 100%;
   text-align: right;
-  padding-right: 40px;
+
 }
 nav ul li{
   display: inline-block;
@@ -73,32 +72,131 @@ nav ul li a{
   text-decoration: none;
   
 }
+.iconic{
+  position: absolute;
+  right: 20px;
+margin-top: -50px;
+}
 .btn{
-  padding: 5px 30px;
+  padding: 5px 25px;
   background: black;
   font-weight: bold;
   color: white;
   display: inline-block;
   align-items: center;
   margin-left: 30%;
+  border-radius: 10px;
 }
-#selector{
-  border-radius: 100px;
-  padding: 2px;
-  border-color: #ffd600;
+.page{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+
+}
+
+.select{
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px 40px;
+  color: #fff;
+  border-color: whitesmoke;
+  border-radius: 10px;
   
 } 
-
+.constructor{
+  color: black;
+}
 h{
   font-size: 50px;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 15%;
   
 }
-series{
+
+
+.container{
+  place-items:center;
+}
+.container1{
+  width: 100%;
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+}
+.header h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  color:black;
+}
+.products{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.product{
+  position: relative;
+  width: 260px;
+  height: 300px;
+  box-shadow: 0 5px 20px rgba(0,0, 0, .3);
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-between;
+  padding: 20px 20px 20px;
+  border-radius: 10px;
+
+
+}
+.image{
+  height: 60% ;
+  display: grid;
+  place-items: center;
+
+}
+.image img{
+  width: 180px;
+}
+.namePrice{
+  display: block;
+  justify-content: space-between;
+}
+.namePrice h3{
+  font-size: 12px;
+
+}
+.namePrice span{
+  color: red;
+}
+.stars{
+  font-size: 10px;
+  color:#ffd600;
+}
+.cart{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+}
+.container2{
+  margin-top: 10%;
+  justify-content: space-around;
+}
+
+.series{
   text-align: center;
   font-size: 50px;
   color: black;
+  justify-content: space-between;
+  margin-top: 110px;
+
 }
 
 .series2{
@@ -111,26 +209,92 @@ series{
 .series3{
   display: flex;
   justify-content: space-between;
-  padding-inline: 80px;
-
-
-  
+  padding-inline: 80px; 
 }
 .series4{
   display: flex;
   justify-content: space-between;
   padding-inline: 80px;
+}
+.starwars{
+  background-image: url(images/star\ war.jpeg);
+  border-radius: 50px;
+  width: 30%;
+}
+.marvel{
+    background-image: url(images/avengers.jpeg);
+    border-radius: 50px;
+    width: 30%;
+    height: 25vh;
+    margin-bottom: 10px;
+}
+.avatar{
+  background-image: url(images/Avatar\ Photo\ Gallery.jpeg);
+  border-radius: 25px;
+  width: 30%;
+  height: 25vh;
+}
+.harry{
+  background-image: url(images/Harry\ Potter\ .jpeg);
+  border-radius: 35px;
+  width: 30%;
+  height: 25vh;
+  margin-top: 10px;
+}
+.DC{
+  background-image: url(images/justice.jpeg);
+  border-radius: 45px;
+  width: 30%;
+  height: 25vh;
   
 }
-.btn{
-  align-items: center;
-  padding: 10px 20px;
-  background:#ffd600;
-  outline: none;
-  border: none;
-  font-weight: bold;
-  color: white;
+.Ninja{
+  background-image: url(images/ninja.png);
+  border-radius: 25px;
+  width: 30%;
+  height: 25vh;
+}
+.IDEAS{
+  background-image: url(images/Temple.jpeg);
+  border-radius: 25px;
+  width: 30%;
+  height: 30vh;
+}
+.disney{
+  background-image: url(images/castle.jpeg);
+  border-radius: 40px;
+  width: 30%;
+  height: 25vh;
+  margin-top: 10px;
+}
+.light{
+  background-image: url(images/light.jpeg);
+  border-radius: 45px;
+  width: 30%;
+  height: 25vh;
+  margin-top: 10px;
+}
+.duplo{
+  background-image: url(images/DUPLO.jpeg);
+  border-radius: 35px;
+  width: 30%;
+  height: 25vh;
+  margin-top: 10px;
+}
 
+#btn4{
+  padding: 15px 80px;
+  border-radius: 10px;
+  background-color: #FFD600;
+  color: #fff;
+  margin-top: 10%;
+  border-color: #FFD600;
+  
+
+}
+.container3{
+  margin-top: 15%;
+  height: 90vh;
 }
 
 .content{
@@ -140,5 +304,213 @@ series{
 }
 .footer{
   background-color: #26004c;
+  padding: 40px 0;
+  color: #fff; 
+  height: 50vh;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width:25% ;
+  padding: 10px; 
+}
+.footer-col h4{
+  font-size:14px ;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight:100px ;
+  position: relative;
+
+}
+ .footer-col h4::before{
+
+  position: absolute;
+  background-color: #e9e9e9;
+  height: 2px;
+  box-sizing: border-box;
+  
+
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 10px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  display: inline-block;
+}
+.icon{
   color: #fff;
 }
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: -10%;
+  font-size: 10px;
+  padding: 5px;
+  
+}
+.container4{
+  margin-top:5%;
+  width: 100vw;
+  height: 230vh;
+}
+
+#bottom{
+  border-bottom: 1px solid#fff;
+  border-top: 1px solid#fff;
+  display: inline;
+  justify-content: baseline;
+}
+.catalog{
+  background-color: #fff;
+  height: 20vh;
+  margin-top: 20px;
+  
+}
+.home{
+  background-color: #2b2b2b;
+  height: 25vh;
+  color: #fff;
+}
+
+#star{
+  display: flex;
+  justify-content: center;
+margin-top: -50px;
+margin-left: 30%;
+}
+.card{
+  border-width: 5px;
+  border-style: solid;
+  padding: 20px 10px;
+  border-color:whitesmoke;
+  height: 150vh;
+  width: 12%;
+  margin-top: -40%;
+  }
+  .movies{
+    float: right;
+    padding: 0 10%;
+    justify-content: space-between;
+    width: fit-content;
+  }
+  .movie1{
+    display: flex;
+  }
+  .movie2{
+    display: flex;
+  }
+  .movie3{
+    display: flex;
+  }
+  .movie4{
+    display: flex;
+  }
+  
+  .checked{
+    color: orange;
+  }
+  .jedi{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .price{
+    display: flex;
+  }
+  .outerrim{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .amanda{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .monop{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .imperial{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .imperial1{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .monopoly{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .out{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .deck{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .unlock{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .lego{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .xwing{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  .clonewars{
+    border-width: 20px;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  
+  #bttn5{
+    padding: 15px 80px;
+    border-radius: 10px;
+    margin-left: 48%;
+    background-color: #FFD600;
+    color: #fff;
+    margin-bottom: 3%;
+    border-color: #FFD600;
+}
+  /* media queery */
+  @media only screen and (max-width: 1200px) {
+    /*Tablets [1001px -> 1200px]*/
+  }
+  @media only screen and (max-width: 1000px) {
+    /*Big smartphones [601px -> 1000px]*/
+  }
+  @media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+  }
+  @media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+  }

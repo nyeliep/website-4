@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +10,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 900px)" href="smallscreen.css">
 
 </head>
 <body>
@@ -37,23 +39,32 @@
     <div class="title2">
      
       <nav2>
+        <ul>
         <b><label>BrickHouse</label></b>
       
         <button><i class="fa fa-th-large" aria-hidden="true"></i>catalog</button>
         <button><i class="fa fa-search" aria-hidden="true">search</i></button>
+      </ul>
+        </nav2>
+    </div>
+
+         <div class="iconic">
+       
         <i class="fa fa-heart-o" aria-hidden="true"></i>
         <i class="fa fa-cart-plus" aria-hidden="true"></i>
         <i class="fa fa-user" aria-hidden="true"></i>
-      </nav>
+    
+    </div>
       <div>
     </div>
   </section>
+
   <section>
-    
     <div>
-      <nav>
+      <div class="page">
       <img src="images/lego2.jpeg" height="480" width="720">
-      <div id="selector">
+      <div class="select">
+        <div class="constructor">
         <h1>Selector Constructor</h1>
         <p>price($)</p>
         <input type="range"><br>
@@ -66,164 +77,785 @@
         <button><input type="search" placeholder="series"></button><br>
         <br>
         <button>select</button>
+        </div>
       </div>
-    </nav>
-
+  
+</div>
     </div>
   </section>
-  <section>
-    <div>
-      <h>Recently Viewed</h>
-      <nav>
-        <div id="body">
-        <img src="images/game1.jpeg" height="180" width="180">
-      </div>
-      <div id="body">
-        <img src="images/game4.png" height="180" width="180">
-      </div>
-      <div id="body">
-        <img src="images/game2.jpeg" height="180" width="180">
-      </div>
-      <div id="body">
-        <img src="images/game3.jpeg" height="180" width="180">
-      </div>
-      </nav>
-      <nav>
-        <p>Dagobah Jedi Training</br>Diorama 75330</p>
-        <p> Tie Bomber 75347</p>
-        <p>AT-TE Walker 75337</p>
-        <p> The Mandalorian's N-1</b>rStarfighter 75325</p>
+  <section class="container">
 
-      </nav>
+    <div class="container1">
+      <div class="header">
+        <h1>Recently Viewed</h1>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="images/game1.jpeg"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Dagobah Jedi Training</br>Diorama 75330</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/game4.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Tie Bomber|75347</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/game3.jpeg"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>AT-TE Walker | 75337</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/game2.jpeg"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>The Mandalorian N-1 Starfighter 75325</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="container">
+
+    <div class="container1">
+      <div class="header">
+        <h1>New</h1>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="images/box1-removebg-preview.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>501st clone tropper battle pack 75345</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/box2-removebg-preview.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Toruk Makto & souls 75574</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/box3-removebg-preview.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Payakan the tulkan & Crabsuit 75579</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/box4-removebg-preview.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+      </div>
     </div>
   </section>
-  <section>
-    <div>
-      <h>New</h>
-      <nav>
-        <img src="images/box1-removebg-preview.png" height="180" width="180">
-        <img src="images/box2-removebg-preview.png" height="180" width="180">
-        <img src="images/box3-removebg-preview.png" height="180" width="180">
-        <img src="images/box4-removebg-preview.png" height="180" width="180">
-      </nav>
-      <nav>
-        <p>501st Clone Troopers</br> Battle Pack 75345</p>
-        <p>Toruk Makto & souls 75574</p>
-        <p> Payakan the tulkan &<br>Crabsuit 75579</p>
-        <p> Galdailf the Greg &<br>Balrog 40631</p>
-
-      </nav>
-    </div>
-  </section>
-  <section>
-    <div>
-      <h>series</h>
+  
+  <section class="container2" >
+    <div class="header">
+      <h1>Series</h1>
       <div class="series">
         <div class="series4">
-          <img src="images/starwars-removebg-preview.png"height="120" width="120"style>
-          <img src="images/MARVEL-removebg-preview (1).png"height="180" width="180">
-          <img src="images/Avatar-removebg-preview.png"height="180" width="180">
+          <img class="starwars"src="images/starwars-removebg-preview.png"height="180" width="180">
+          <img class="marvel" src="images/MARVEL-removebg-preview (1).png"height="180" width="180">
+          <img class="avatar" src="images/Avatar-removebg-preview.png"height="100" width="100">
         </div>
         <div class="series2">
-          <img src="images/mini-removebg-preview.png"height="120" width="250">
-          <img src="images/DC-removebg-preview.png"height="180" width="180">
-          <img src="images/Ninjago-removebg-preview.png"height="180" width="180">
-          <img src="images/LEGO_Ideas_logo.svg"height="120" width="120">
+          <img class="harry" src="images/HARRY-removebg-preview.png"height="90" width="200">
+          <img class="DC" src="images/DC-removebg-preview.png"height="100" width="100">
+          <img class="Ninja" src="images/Ninjago-removebg-preview.png"height="100" width="100">
+        
         </div>
       
         <div class="series3">
           
-          <img src="images/Disney-removebg-preview.png"height="200" width="200"> 
-          <img src="images/LIGHT-removebg-preview.png"height="180" width="180">
-          <img src="images/Duplo-Logo.png"height="180" width="180">
+          <img class="disney" src="images/Disney-removebg-preview.png"height="100" width="100"> 
+          <img class="light" src="images/LIGHT-removebg-preview.png"height="100" width="100">
+          <img class="duplo" src="images/Duplo-Logo.png"height="100" width="100">
         </div>
       
       </div>
-      <button class="btn">More Series</button>
+     
+      <button id="btn4">More series</button>
 
     </div>
-  </section>
-  <section>
-    <div>
-      <h>Discounts</h>
-      <nav>
-        <img src="images/newyr.png"height="180" width="180">
-        <img src="images/birthday.jpeg"height="180" width="180">
-        <img src="images/set.jpeg"height="180" width="180">
-      </nav>
-      <nav>
-        <p>New Year's discounts on<br>all advent calendars!</p>
-        <p>Birthday promo set.</p>
-        <p>Explore pandora with the new Avatar set.</p>
-        
 
-      </nav>
-      
+  </section>
+
+
+  <section class="container">
+
+    <div class="container3">
+      <div class="header">
+        <h1>New</h1>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="images/newyr.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>New year's discount on all calendars</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/birthday.jpeg"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>birthday Promo set</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images/set.jpeg"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Explore pandora with new avatar</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+ 
+    
+      </div>
     </div>
   </section>
+
   <section>
     <div class="content">
       <nav3>
         <p>Get a 5% discount on your first purchase</p>
-        <button><input type="Name" placeholder="your email">Send</button>
+        <button style="background-color: red;"><input type="Name" placeholder="your email" style="margin: 0%;">Send</button>
       </nav>
     </div>
   </section>
+  
   <footer class="footer">
-    <div>
-      <nav>
-        <div>
-          <b></b><h1>Company</h1></b>
-          <p>About BrickHouse</p>
-          <p>Our Shops</p>
-          <p>Bonus Program</p>
-          <p>Our Partners</p>
-          <p>News</p>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About BrickHouse</a></li>
+            <li><a href="#">Our Shops</a></li>
+            <li><a href="#">Bonus Program</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
         </div>
-        <div>
-          <b><h1>Help</h1></b>
-          <p>Shopping and pay</p>
-          <p>Return and exchange</p>
-          <p>Reviews</p>
-          <p><Feedback/p>
-          <p>FAQ</p>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Shopping and Pay</a></li>
+            <li><a href="#">Return and Exchange</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">FAQ</a></li>
+            
+          </ul>
+          </div>
+        <div class="footer-col">
+          <h4>Contacts</h4>
+          <ul>
+            <li><a href="#">0(800)111-22-33</a></li>
+            <li><a href="#">info.bhouse@gmail.com</a></li>
+            
+          </ul>
+          </div>
+        <div class="footer-col">
+          <h4>We work</h4>
+          <ul>
+            <li><a href="#">Mon-Fri 09:00-12:00</a></li>
+            <li><a href="#">Sat-Sun  10:00-20:00</a></li>
+          </ul>
         </div>
-        <div>
-          <b><h1>Contacts</h1></b>
-          <p>0(800) 111-22-33</p>
-          <p>info.bhouse@gmail.com</p>
-        </div>
-        <div>
-          <b><h1>We work</h1></b>
-          
-          <p>Mon-Fri 09:00-20:00</p>
-          <p>Sat-Sun 10:00-20:00</p>
-        </div>
-        <div>
-          <b><h1>Social Networks</h1></b>
-          <i class="fa fa-facebook-square" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-youtube-play" aria-hidden="true"></i>
-        </div>
-        <div>
-          <b><h1>You Can Pay</h1></b>
-          <i class="fa fa-cc-visa" aria-hidden="true"></i>
-          <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-          <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-          <p></p>
-        </div>
-      </nav>
+      <div class="footer-col">
+        <h4>Social Networks</h4>
+        
+          <a class="icon" href="#"><i class="fa fa-facebook-square" aria-hidden="true" ></i></a>
+          <a class="icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a class="icon" href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    
+        
+      </div> 
+      <div class="footer-col">
+        <h4>You can pay</h4>
+      
+          <a class="icon" href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+          <a class="icon" href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
+          <a class="icon" href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a>
+        
+       </div>
+      </div>
     </div>
-    <div>
-      <nav>
-        <h1>BrickHouse</h1>
-        <p>Privacy Policy</p>
-        <p>Cookies</p>
-        <p>Copyright</p>
-      </nav>
-     
+    <div class="bottom">
+      <h2 class="Bh">BrickHouse</h2>
+      <p >privacy Policies</p>
+      <p>Cookies</p>
+      <p>Copyright</p>
     </div>
   </footer>
+  
+  <section class="header">
+    <h1>catalog page</h1>
+  </section>
+
+  <section>
+    <div class="title">
+      <nav1>
+        
+        <ul>
+        <li><a href="#">About Us</a></li>
+  
+        <li><a href="#">Support</a></li>
+  
+        <li><a href="#">Shipping and Pay</a></li>
+  
+        <li><a href="#">Contat us</a></li>
+      
+        </ul>
+    
+      </nav>
+    </div>
+  </section>
+
+  <section>
+    <div class="title2">
+     
+      <nav2>
+        <b><label>BrickHouse</label></b>
+      
+        <button><i class="fa fa-th-large" aria-hidden="true"></i>catalog</button>
+        <button><i class="fa fa-search" aria-hidden="true">search</i></button>
+        </nav2>
+        <div class="iconic">
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+      </nav>
+      <div>
+    </div>
+  </section>
+
+  <section class="home">
+    <div>
+      
+      <i class="fa fa-home" aria-hidden="true"></i>>lego star wars
+
+      <img id="star" src="images1/starwarslogo-removebg-preview.png"height="180" width="180">
+    
+    </div>
+  </section>
+
+  <section>   
+  <nav>
+      <div class="card">
+        <h1>Series</h1>
+        <input checked=""type="checkbox"/>LEGO Star War
+      </br>
+        <input type="checkbox"/>lego Brick Headz
+      </br>
+        <input type="checkbox"/>lego castle
+      </br>
+        <input type="checkbox"/>lego classic
+      </br>
+        <input type="checkbox"/>lego creator
+      </br>
+        <input type="checkbox"/>lego dots
+      </br>
+        <input type="checkbox"/>lego duplo
+           <h1>price($)</h1>
+        <input type="checkbox"/>$ 10-25
+      </br>
+        <input type="checkbox"/>$ 25-50
+      </br>
+        <input type="checkbox"/>$ 100-250
+      </br>
+        <input type="checkbox"/>$ 250-500
+      </br>
+        <input type="checkbox"/>$ 500+
+        <h1>Sex</h1>
+        <input type="checkbox"/>Boy
+      </br>
+        <input type="checkbox"/>Girl
+        <h1>Age</h1>
+        <input type="checkbox"/>2-4
+      </br>
+        <input type="checkbox"/>5-8
+      </br>
+        <input type="checkbox"/>9-17
+      </br>
+        <input type="checkbox"/>18+
+        </div>
+        
+      </div>
+      <div class="container4">
+      <div class="header">
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="image">
+            <img src="images1/jedi.webp"height="170" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>501st clone tropper battle pack 75345</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/outerrim.png"height="170" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Toruk Makto & souls 75574</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/amanda.png"height="170" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Payakan the tulkan & Crabsuit 75579</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/monop.webp"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/imperial.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>   <div class="product">
+          <div class="image">
+            <img src="images1/Imperial_Entanglements-removebg-preview.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>   <div class="product">
+          <div class="image">
+            <img src="images1/monopoly.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>   <div class="product">
+          <div class="image">
+            <img src="images1/outerrim.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>  
+         <div class="product">
+          <div class="image">
+            <img src="images1/deck.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/unlockwars.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/legostar.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+        <div class="product">
+          <div class="image">
+            <img src="images1/xwing.png"height="180" width="180">
+          </div>
+          <div class="namePrice">
+            <h3>Galdailf the Greg & Balrog 40631</h3>
+            <span>$ 71.99</span>
+          </div>
+
+           <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></iclass></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+           </div>
+           <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+           </div>
+        </div>
+      </div>
+    </div>
+
+</nav>
+  <button id="bttn5">See More</button>
+
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About BrickHouse</a></li>
+            <li><a href="#">Our Shops</a></li>
+            <li><a href="#">Bonus Program</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Shopping and Pay</a></li>
+            <li><a href="#">Return and Exchange</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">FAQ</a></li>
+            
+          </ul>
+          </div>
+        <div class="footer-col">
+          <h4>Contacts</h4>
+          <ul>
+            <li><a href="#">0(800)111-22-33</a></li>
+            <li><a href="#">info.bhouse@gmail.com</a></li>
+            
+          </ul>
+          </div>
+        <div class="footer-col">
+          <h4>We work</h4>
+          <ul>
+            <li><a href="#">Mon-Fri 09:00-12:00</a></li>
+            <li><a href="#">Sat-Sun  10:00-20:00</a></li>
+          </ul>
+        </div>
+      <div class="footer-col">
+        <h4>Social Networks</h4>
+        
+          <a class="icon" href="#"><i class="fa fa-facebook-square" aria-hidden="true" ></i></a>
+          <a class="icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a class="icon" href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    
+        
+      </div> 
+      <div class="footer-col">
+        <h4>You can pay</h4>
+      
+          <a class="icon" href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+          <a class="icon" href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
+          <a class="icon" href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a>
+        
+       </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <h2 class="Bh">BrickHouse</h2>
+      <p >privacy Policies</p>
+      <p>Cookies</p>
+      <p>Copyright</p>
+    </div>
+  </footer>
+  
+  
   
 </body>
 </html>

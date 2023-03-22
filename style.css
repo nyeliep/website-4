@@ -11,71 +11,112 @@
   padding: 0px;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  
 
 
 }
-
-.title{
+.navbar{
+  height: 15vh;
+  width: 100%;
   background-color: #fff;
-}
-nav1{
-
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
-  height:10px ;
+  padding: 3% 20%;
 }
-
-nav1 ul{
-  list-style: none;
+.navbar ul{
+  display: flex;
   text-align: center;
-
+  width: 100%;
+  margin-bottom: 20px;
 }
-nav1 ul li{
-  display: inline-block;
+.navbar li{
+  display:inline-block;
+  justify-content: space-between;
+}
+.navbar a{
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #252525;
+  text-align: center;
   
 }
-nav1 ul li a{
-  color:black;
-  text-decoration: none;
-}
-.title2{
-  background-color: #ffd600;
-  height: 15vh;
-}
-nav2{
-  display: inline-block;
-  margin: 5px 10px;
-  padding: 25px 60px;
+.flag{
+  height: 45px;
+  width: 45px;
   display: flex;
+  margin-top: -80px;
+  margin-left: 90%;
 }
+.nav-bar{
+  display: flex;
+  align-items: center;
+  padding: 0% 5%;
+  background: #ffd600;
+  gap:40px;
+  height: 15vh;
 
+}
 nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 0; 
-}
-
-nav ul{
-  list-style: none;
-  text-align: right;
+  padding: 0% 5%;
+  gap:40px;
 
 }
-nav ul li{
-  display: inline-block;
-  
-}
-nav ul li a{
-  color:black;
+nav a{
   text-decoration: none;
-  
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
 }
+nav button{
+  width: 150px;
+  height: vh;
+}
+.icons{
+  display:flex;
+  color: #000;
+}
+.row{
+  display: flex;
+  gap: 5%;
+}
+.select{
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px 40px;
+  color: #fff;
+  border-color: whitesmoke;
+  border-radius: 10px; 
+  height: 74vh;
+  margin-top: 10px;
+} 
+.constructor{
+  color: #000;
+}
+
+h1{
+  font-size: 14px;
+  font-weight: 500;
+}
+.search{
+  outline: none;
+  border: none;
+  height: 4vh;
+}
+.sel-btn{
+  background: #ffd600;
+  width: 100px;
+  height: 5vh;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
 .iconic{
   position: absolute;
   right: 20px;
-margin-top: -50px;
+margin-top: -10px;
 }
 .btn{
   padding: 5px 25px;
@@ -119,7 +160,6 @@ h{
 }
 .container1{
   width: 100%;
-  /* height: 70vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -304,7 +344,6 @@ font-size: 10px;
 }
 .footer{
   background-color: #26004c;
-  padding: 40px 0;
   color: #fff; 
   height: 50vh;
 }
@@ -383,6 +422,8 @@ ul{
 margin-top: -50px;
 margin-left: 30%;
 }
+
+
 .card{
   border-width: 5px;
   border-style: solid;
@@ -397,6 +438,7 @@ margin-left: 30%;
     padding: 0 10%;
     justify-content: space-between;
     width: fit-content;
+  
   }
   .movie1{
     display: flex;
@@ -492,16 +534,210 @@ margin-left: 30%;
     margin-bottom: 3%;
     border-color: #FFD600;
 }
-  /* media queery */
-  @media only screen and (max-width: 1200px) {
-    /*Tablets [1001px -> 1200px]*/
+.features{
+  padding: 50px 1%;
+  font-size: 22px; 
+  display: flex;
+ }
+.row{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.text-col{
+  margin-bottom: 20px;
+}
+.img-col{ 
+margin-bottom: 20px;
+}
+.img-col img{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.lego-planes{
+  display: flex;
+}
+.parag{
+  font-size: 15px;
+  color: #58D68D;
+}
+.price{
+  font-size: 18px;
+  padding: 2px;
+}
+.price1{
+  color: orange;
+  padding: 1px 5px;
+}
+.price2{
+  color:grey;
+  text-decoration: line-through;
+  padding: 1px 5px;
+}
+.box{
+  font-size: 16px;
+  color: #252525;
+  padding:5px 10px;
+  justify-content: space-between;
+}
+.box1{
+  padding: 2px 8px;
+  outline: none;
+  border: none;
+  background: gainsboro;
+  border-radius: 8px;
+  margin-right: 10px;
+  
+}
+.box2{
+  padding: 2px 8px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: #FFD600;
+  margin-left: 10px;
+}
+.heart{
+  position:absolute;
+  margin-left: 10%;
+  margin-top: -2.5%;
+  padding: 3px;
+  width: 30px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+.info1{
+  width: 15%;
+  height: 8vh;
+  background: #FFD600;
+}
+.info2{
+  width: 15%;
+  height: 8vh;
+  background: #fff;
+}
+.paragraph{
+  border-top: solid #e9e9e9;
+  text-align: center;
+}
+.lego1{
+ outline:none;
+ border:solid #ffd600;
+ border-radius: 10px;
+ margin-left: 20%; 
+}
+.lego-2{
+  outline:none;
+  border:solid #ffd600;
+  border-radius: 10px;
+  margin-left: 8%; 
+}
+.lego3{
+  outline:none;
+  border:solid #ffd600;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+.delivery{
+  display: flex;
+  font-size: 15px
+}
+.col1{
+  display:block;
+  margin-top: 20px;
+  padding: 10px;
+  line-height: 4vh;
+}
+.col2{
+  display:block;
+  margin-top: 20px;
+  padding: 10px;
+  line-height: 2.5vh;
+}
+.addresses{
+  text-decoration: underline;
+  color: red;
+}
+.deli{
+  color: aqua;
+}
+.foot{
+  width: 100%;
+  
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .body{
+    width: 70%;
+    height: 100vh;
+    font-size: 1px;
   }
-  @media only screen and (max-width: 1000px) {
-    /*Big smartphones [601px -> 1000px]*/
+  .nav-bar a{
+    padding: 1px 2px;
+    font-size: 1px;
+
   }
-  @media only screen and (max-width: 600px) {
-    /*Big smartphones [426px -> 600px]*/
+  .navbar a{
+   font-size: 10px;
+   width: 50%;
+   
   }
-  @media only screen and (max-width: 425px) {
-    /*Small smartphones [325px -> 425px]*/
+  .nav-bar{
+    width: 100%;
+font-size: 2px;
+padding:2px 5px;
+
   }
+  .nav-bar button{
+    width: 20vw;
+    height: 5vh;
+  }
+.flag{
+  margin-right: 2%;
+}
+.imglego{
+  height: 25vh;
+  width: 100vw;
+}
+h1{
+  font-size: 2px;
+  font-weight:normal;
+}
+h{
+  font-size: 2px;
+  text-align: center;
+  margin-left: 1%;
+  
+}
+.header{
+  width: 50%;
+  text-align: center;
+}
+.header h1{
+  font-size: 2px;
+  text-transform:none;
+  color:black;
+}
+.series{
+  
+  
+}
+ 
+
+}
+
+ 
+  
+ 
+
+

@@ -1,0 +1,55 @@
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .navbar{
+    padding: 3% 5%;
+  }
+  .navbar ul{
+    display: none;
+  }
+  .nav-bar{
+    padding: 0% 5%;
+  }
+  nav{
+    padding: 0% 5%;
+  }
+  nav a{
+    font-size: 30px;
+  }
+  .iconic{
+    display: none;
+  }
+}
+
+/* Media query for screens with a minimum width of 769px */
+@media screen and (min-width: 769px) {
+  .navbar{
+    padding: 3% 20%;
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .nav-bar{
+    padding: 0% 5%;
+  }
+  nav{
+    padding: 0% 5%;
+  }
+  nav a{
+    font-size: 40px;
+  }
+  .iconic{
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5em;
+  }
+  .product {
+    width: 200px;
+    height: 250px;
+  }
+  .image img {
+    width: 120px;
+  }
+}

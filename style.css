@@ -838,64 +838,7 @@ margin-bottom: 20px;
 
 
 
-/* Smartphones (portrait and landscape) -----------
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  .body{
-    width: 70%;
-    height: 100vh;
-    font-size: 1px;
-  }
-  .nav-bar a{
-    padding: 1px 2px;
-    font-size: 1px;
 
-  }
-  .navbar a{
-   font-size: 10px;
-   width: 50%;
-   
-  }
-  .nav-bar{
-    width: 100%;
-font-size: 2px;
-padding:2px 5px;
-
-  }
-  .nav-bar button{
-    width: 20vw;
-    height: 5vh;
-  }
-.flag{
-  margin-right: 2%;
-}
-.imglego{
-  height: 25vh;
-  width: 100vw;
-}
-h1{
-  font-size: 2px;
-  font-weight:normal;
-}
-h{
-  font-size: 2px;
-  text-align: center;
-  margin-left: 1%;
-  
-}
-.header{
-  width: 50%;
-  text-align: center;
-}
-.header h1{
-  font-size: 2px;
-  text-transform:none;
-  color:black;
-}
- 
-
-} */
 
  
   

@@ -674,6 +674,7 @@ margin-bottom: 20px;
   width: 100%;
   
 }
+/* product page */
 .p-page{
   display: grid;
   padding: 20px;
@@ -733,6 +734,72 @@ margin-bottom: 20px;
   color: grey;
   text-decoration: line-through;
 }
+
+
+
+
+/* confirm order */
+.container5{
+  /* display: flex; */
+
+}
+h1{
+  font-size: 20px;
+}
+.contact{
+  margin-top:-8% ;
+}
+.user details{
+  float: left;
+}
+
+/* order form */
+.order{
+  float: right;
+  margin-top: -10%;
+  margin-right: 100px;
+}
+.save{
+outline: none;
+}
+.promo{
+outline-color: #58D68D;
+}
+.order-btn{
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #ffd600;
+  color:black;
+  border-color: #fff;
+}
+
+
+
+
+.payment{
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 15%;
+  margin-top: -5%;
+}
+.sele{
+  /* margin-left: 250px; */
+  font-size: 3px;
+}
+.paygo{
+margin-top: 20%;
+/* font-size: 30px; */
+gap: 200px;
+}
+.icony{
+margin-top: 20%;
+color: grey;
+}
+.end{
+  color: grey;
+  margin-left: 30%;
+}
+
 
 
 
@@ -800,20 +867,12 @@ margin-bottom: 20px;
   
  
   
-
-  
-
- 
   
 }
 
 
-
-
-
-
 /* media query for product page */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px)and(min-width: 1020px) {
   .p-page {
     display: block;
     padding: 10px;

@@ -758,12 +758,26 @@ h1{
   float: right;
   margin-top: -10%;
   margin-right: 100px;
+  border-width: 2px;
+  border-style: solid;
+  padding:  40px;
+  color: #000;
+  border-color: whitesmoke;
+  border-radius: 10px; 
+  height: 74vh;
+
 }
 .save{
 outline: none;
+outline: none;
+border: none;
+height: 4vh;
+
 }
 .promo{
-outline-color: #58D68D;
+outline: none;
+border: none;
+height: 4vh;
 }
 .order-btn{
   padding: 15px 20px;
